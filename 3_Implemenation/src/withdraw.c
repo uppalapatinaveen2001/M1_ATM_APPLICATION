@@ -4,12 +4,12 @@
 #include <math.h>
 #include"atm.h"
 
-float moneyWithdraw(float balance) {
+float moneyWith(float balance) {
     float withdraw;
     bool back = true;
 
-    printf("You choose to Withdraw a money\n");
-    printf("$$$$Your Balance is: $%.2f\n\n", balance);
+    printf("You are liking to withdraw a money\n");
+    printf("  Your Balance is: $%.2f\n\n", balance);
 
     while (back) {
     printf("Enter your amount to withdraw:\n");
@@ -19,16 +19,16 @@ float moneyWithdraw(float balance) {
     if (withdraw < balance) {
         back = false;
         balance -= withdraw;
-        printf("\n$$$$Your withdrawing money is:  $%.2f\n", withdraw);
-        printf("****Your New Balance is:   $%.2f\n\n", balance);
+        printf("\nYour withdrawing money is:  $%.2f\n", withdraw);
+        printf("edhi amma mana balance:   $%.2f\n\n", balance);
 
     }
 
         else  {
 
-        printf("+++You don't have enough money+++\n");
-        printf("Please contact to your Bank Customer Services\n");
-        printf("****Your Balance is:   $%.2f\n\n", balance);
+        printf("you are not having a that much of balance\n");
+        printf("call your bank manager\n");
+        printf("Your Balance is:   $%.2f\n\n", balance);
 
     }
     }
