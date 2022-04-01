@@ -4,7 +4,7 @@
 #include <math.h>
 #include"atm.h"
 
-float moneyDeposit(float balance) {
+float moneyDepo(float balance) {
     float deposit;
     printf("You choose to Deposit a money\n");
     printf("your money is there in account$%.2f\n\n", balance);
