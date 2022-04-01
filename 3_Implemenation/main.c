@@ -6,9 +6,9 @@ include<stdio.h>
 
 //Functions
 int mainMenu(void);
-float checkBalance(float balance);
-float moneyDeposit(float balance);
-float moneyWithdraw(float balance);
+float checkBal(float balance);
+float moneyDepo(float balance);
+float moneyWith(float balance);
 int menuExit(void);
 int errorMessage(void);
 
@@ -34,15 +34,15 @@ int main()
         switch (option) {
             case 1:
             	system("CLS");
-                checkBalance(balance);
+                checkBal(balance);
                 break;
             case 2:
             	system("CLS");
-                balance = moneyDeposit(balance);
+                balance = moneyDepo(balance);
                 break;
             case 3:
             	system("CLS");
-                balance = moneyWithdraw(balance);
+                balance = moneyWith(balance);
                 break;
 
             case 4:
