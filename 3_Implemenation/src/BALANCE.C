@@ -5,8 +5,8 @@
 #include"atm.h"
 
 float checkBalance(float balance) {
-    printf("You Choose to See your Balance\n");
-    printf("\n\n****Your Available Balance is:   $%.2f\n\n", balance);
+    printf("your balance is......\n");
+    printf("\n\n++++Your Available Balance is:   $%.2f\n\n", balance);
     return balance;
 
 }
