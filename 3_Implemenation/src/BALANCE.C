@@ -6,7 +6,7 @@
 
 float checkBala(float balance) {
     printf("your balance is......\n");
-    printf("\n\n++++Your Available Balance is:   $%.2f\n\n", balance);
+    printf("\nMI ACCOUNT BALANCE IS   $%.2f\n\n", balance);
     return balance;
 
 }
