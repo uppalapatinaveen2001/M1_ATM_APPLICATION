@@ -16,7 +16,7 @@ float moneyWith(float balance) {
     scanf("%f", &wd);
 
 
-    if (withdraw < balance) {
+    if (wd < balance) {
         back = false;
         balance = balance-wd;
         printf("\nYour withdrawing money is:  $%.2f\n", wd);
