@@ -11,12 +11,14 @@ float moneyWith(float balance) {
     printf("You are liking to withdraw a money\n");
     printf("  Your Balance is: $%.2f\n\n", balance);
 
-    while (back) {
+    while (back)
+    {
     printf("Enter your amount to withdraw:\n");
     scanf("%f", &wd);
 
 
-    if (wd < balance) {
+    if (wd < balance)
+    {
         back = false;
         balance = balance-wd;
         printf("\nYour withdrawing money is:  $%.2f\n", wd);
@@ -24,15 +26,16 @@ float moneyWith(float balance) {
 
     }
 
-        else  {
+        else
+        {
 
         printf("you are not having a that much of balance\n");
-        printf("call your bank manager\n");
         printf("Your Balance is:   $%.2f\n\n", balance);
 
-    }
+        }
     }
     return balance;
+
 
 
 }
