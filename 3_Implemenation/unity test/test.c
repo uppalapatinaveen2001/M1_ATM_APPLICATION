@@ -4,9 +4,9 @@
 
 
 void test_mainMenu(void);
-void test_checkBalance(void);
-//void test_moneyDeposit(void);
-//float moneyWithdraw(float balance);
+void test_checkBal(void);
+//void test_moneyDepo(void);
+//float moneyWith(float balance);
 void test_menuExit(void);
 void test_errorMessage(void);
 
@@ -38,7 +38,7 @@ void test_mainMenu(void) {
 
   
 }
-void test_checkBalance(void) {
+void test_checkBal(void) {
   TEST_ASSERT_EQUAL(15000.00,checkBalance(15000.00));
  
 }
