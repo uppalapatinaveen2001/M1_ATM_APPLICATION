@@ -8,6 +8,6 @@
 
    int errorMessage() 
 {
-    printf("+++!!!You selected invalid number!!!+++\n");
+    printf("PLEASE GIVE CORRECT NUMBER\n");
     return
 }
