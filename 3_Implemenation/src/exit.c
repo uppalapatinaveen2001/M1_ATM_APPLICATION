@@ -5,8 +5,7 @@
 #include"atm.h"
 
 int menuExit() {
-    printf("--------------Take your receipt!!!------------------\n");
-    printf("-----Thank you for using ATM Banking Machine!!!-----\n");
+    printf("TAKE YOUR PAPER...\n");
     return 5;
 
 }
