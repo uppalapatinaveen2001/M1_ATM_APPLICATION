@@ -5,16 +5,16 @@
 #include"atm.h"
 
 float moneyDepo(float balance) {
-    float deposit;
+    float depo;
     printf("You choose to Deposit a money\n");
     printf("your money is there in account$%.2f\n\n", balance);
     printf("Enter your amount to Deposit\n");
-    scanf("%f", &deposit);
+    scanf("%f", &depo);
 
 
-    balance = balance+ deposit;
+    balance = balance+ depo;
 
-    printf("\n****Your New Balance is:   $%.2f\n\n", balance);
+    printf("\nNI BALANCE IS   $%.2f\n\n", balance);
     return balance;
 
 }/
