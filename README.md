@@ -5,3 +5,4 @@ PROJECT GOAL
 
  ![code quality score](https://api.codiga.io/project/32419/score/svg)
  ![quality grade](https://api.codiga.io/project/32419/status/svg)
+![C/C++ CI](https://github.com/ppalapatinaveen2001/M1_ATM_APPLICATION/actions/workflows/c_build.yml/badge.svg)
